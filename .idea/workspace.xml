@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78872cc0-0e1f-4886-8f70-0962f6c17700" name="Changes" comment="" />
+    <list default="true" id="78872cc0-0e1f-4886-8f70-0962f6c17700" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/HostGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/HostGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SketchifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SketchifyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sketchify/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sketchify/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SketchifyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SketchifyController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/02148" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,40 +51,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GUI.javaFX_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomePage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HostGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SketchifyGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javaFX_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sketchify.App.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.Sketchify.jar.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;GUI&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/drisr/02148/02148&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.Application.executor": "Run",
+    "Application.ChatClient.executor": "Run",
+    "Application.ChatServer.executor": "Run",
+    "Application.GUI.javaFX_testing.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.HomePage.executor": "Run",
+    "Application.HostGame.executor": "Run",
+    "Application.LoginPage.executor": "Run",
+    "Application.SketchifyGame.executor": "Run",
+    "Application.javaFX_testing.executor": "Run",
+    "Application.sketchify.App.executor": "Run",
+    "JAR Application.Sketchify.jar.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "GUI",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/drisr/02148/02148",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\drisr\02148\Scenebuilder_test\src\main\java\Sketchify" />
@@ -161,7 +173,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -185,6 +198,7 @@
       <workItem from="1737470650655" duration="17141000" />
       <workItem from="1737518307846" duration="1157000" />
       <workItem from="1737519519338" duration="1849000" />
+      <workItem from="1737535788177" duration="1293000" />
     </task>
     <servers />
   </component>

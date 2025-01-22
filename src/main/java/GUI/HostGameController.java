@@ -89,6 +89,7 @@ public class HostGameController {
 //                + drawSpace.queryAll().toString());
 
         updateLobbyList();
+        startListeningForStartAll();
     }
 
     public void updateLobbyList() {
@@ -117,5 +118,52 @@ public class HostGameController {
     }
     public void setMyRole(String role) {
         this.myRole = role;
+    }
+
+    private void startListeningForStartAll() {
+        if (Objects.equals(myRole, "Client")) {
+            Thread t = new Thread(() -> {
+                while (!Thread.currentThread().isInterrupted()) {
+                    try {
+                        // We do a blocking read for ("game","startAll")
+                        gameSpace.query(new ActualField("game"), new ActualField("startAll"));
+
+                        // If we get here, the host has signaled "startAll".
+                        System.out.println("[HomePageController] Detected (\"game\",\"startAll\"). Loading Sketchify...");
+
+                        // Switch to Sketchify UI on JavaFX thread
+                        Platform.runLater(() -> {
+                            switchToSketchify();
+                        });
+                        break; // or keep listening if you want multiple re-joins
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        break;
+                    }
+                }
+            }, "WaitForStartAll");
+            t.setDaemon(true);
+            t.start();
+        }
+    }
+    private void switchToSketchify() {
+        if (Objects.equals(myRole, "Client")) {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("sketchify-page.fxml"));
+                Parent root = loader.load();
+
+                SketchifyController controller = loader.getController();
+                controller.setSpaces(chatSpace, gameSpace, drawSpace, currentUser, myRole);
+
+                Stage stage = (Stage) lobbyTextArea.getScene().getWindow(); // or any node from the scene
+                Scene scene = new Scene(root);
+                stage.setScene(scene);
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 }

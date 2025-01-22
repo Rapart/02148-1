@@ -60,9 +60,9 @@ public class LoginController {
 
 
         //Parent root loaded from FXML file
-        String chatURI = "tcp://192.168.8.69:8753/chat?keep";
-        String serverURI = "tcp://192.168.8.69:8753/draw?keep";
-        String gameURI = "tcp://192.168.8.69:8753/game?keep";
+        String chatURI = "tcp://10.209.248.102:8753/chat?keep";
+        String serverURI = "tcp://10.209.248.102:8753/draw?keep";
+        String gameURI = "tcp://10.209.248.102:8753/game?keep";
         try {
             chatSpace = new RemoteSpace(chatURI);
             drawSpace = new RemoteSpace(serverURI);

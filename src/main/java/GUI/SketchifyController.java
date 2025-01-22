@@ -518,7 +518,7 @@ public class SketchifyController implements Initializable {
                     }
                     // else: skip draws from old rounds
                 }
-                Thread.sleep(40);
+                Thread.sleep(200);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 break;
